@@ -1,6 +1,6 @@
 //Royce Kok
 //Hw 01
-//Welcome Class Java Prog ram
+//Welcome Class Java Program
 //
 //  First compile the program
 //      javac HelloWorld.java
