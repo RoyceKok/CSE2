@@ -31,7 +31,7 @@ public class Arithmetic {
     double taxPercent = 0.06;
     
     // Calculations: 1. Cost of each of the three kinds of items
-    //               2. The total cost
+    // Calculate     2. The total cost
     //               3. The total sales tax
     //               4. The total cost of the transaction
     
