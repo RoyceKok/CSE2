@@ -48,4 +48,4 @@ public class Bicycle {
         System.out.println("The average mph was " +milesPerHour+ ".");
         
     } // end of main method
-}
+} // end of public class

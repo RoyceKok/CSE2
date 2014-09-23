@@ -37,4 +37,4 @@ public class FourDigits {
         
     } // end of main method
 
-}
+} // end of public class

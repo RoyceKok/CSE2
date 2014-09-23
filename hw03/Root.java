@@ -39,5 +39,5 @@ import java.util.Scanner;
             System.out.println ("The cube of the estimate is " +Y+ ".");
             
             
-        }
-    }
+        } // end of main method
+    } // end of public class
