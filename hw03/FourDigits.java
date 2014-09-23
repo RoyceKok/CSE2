@@ -22,18 +22,19 @@ public class FourDigits {
         // Casting 
         display2 = (int)(input1);
         int prod = (int)(input1*10000);
-        System.out.println(prod);
+        //System.out.println(prod);
         
         // declare the intger and modulate it for single, two, three and four digits
-        int singledigit = prod%10;
-        int twodigits = prod%100; 
-        int threedigits = prod&1000;
+        //int singledigit = prod%10;
+        //int twodigits = prod%100; 
+        //int threedigits = prod&1000;
         int fourdigits = prod%10000;
         
         // Print out the four digit value
-        System.out.print ("The four digit value is " +singledigit+ +twodigits+ +threedigits+ +fourdigit+ ".");
+        //System.out.print ("The four digit value is " +singledigit+ +twodigits+ +threedigits+ +fourdigits+ ".");
+        System.out.println ("The four digit value is " +fourdigits+ ".");
         
-        }
+        
     } // end of main method
 
 }
