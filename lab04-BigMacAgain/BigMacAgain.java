@@ -22,18 +22,17 @@ public class BigMacAgain{
     
 
     int nBigMacs; 
-    double costOfBigMac = 2.22;
-    double totalCostOfBigMac;
-    double costOfFries = 2.15;
+    double costOfBigMac$ = 2.22;
+    double totalCostOfBigMac$;
+    double costOfFries$ = 2.15;
     
     // Chceck if the user enter an integer for the number of Big Macs
     if(myScanner.hasNextInt()){
             nBigMacs = myScanner.nextInt();
         
             if(nBigMacs>0){
-                totalCostOfBigMac = nBigMacs*costOfBigMac;
-                double totalCostofBigMac2 = (int) totalCostOfBigMac*100 / 100.00; 
-              System.out.println("Total cost of Big Macs is [trial 2]" +totalCostofBigMac2+ ".");  
+                totalCostOfBigMac$ = nBigMacs*costOfBigMac$;
+              System.out.println("Total cost of Big Macs is " +totalCostOfBigMac$+ ".");  
             }
             else{
                 System.out.print("You did not enter an int >0.");
@@ -52,15 +51,15 @@ public class BigMacAgain{
             String fries = myScanner.next();
             
             if(fries.equals("Y") || fries.equals("y")) {
-                totalCostOfBigMac = nBigMacs*costOfBigMac;
-                double totalCostOfBill = totalCostOfBigMac + costOfFries;
+                totalCostOfBigMac$ = nBigMacs*costOfBigMac$;
+                double totalCostOfBill$ = totalCostOfBigMac$ + costOfFries$;
                 System.out.println ("You ordered fries at the cost of $2.15");
-                System.out.println ("The total cost of the meal is " +totalCostOfBill+ ".");
+                System.out.println ("The total cost of the meal is " +totalCostOfBill$+ ".");
             }
             else if(fries.equals("N") || fries.equals("n")) {
-                totalCostOfBigMac = nBigMacs*costOfBigMac;
-                double totalCostOfBill = totalCostOfBigMac;
-                System.out.println("The total cost of the meal is " +totalCostOfBill+ ".");
+                totalCostOfBigMac$ = nBigMacs*costOfBigMac$;
+                double totalCostOfBill$ = totalCostOfBigMac$;
+                System.out.println("The total cost of the meal is " +totalCostOfBill$+ ".");
             }
             else{
                 System.out.println("You did not enter a correct input for fries.");
