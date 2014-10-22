@@ -9,7 +9,6 @@ depend on the value entered.
 */
 
 import java.util.Scanner;
-
 public class NumberStackWhile {
     public static void main(String[] args) {
 
@@ -26,37 +25,40 @@ public class NumberStackWhile {
                    int vars = 1;
                    while (run <= k ){ 
                     
-                        int row =1; 
+                        int row =1;
+                        int columns = 1;
                         while (row <= run ){ // While loop for row
                             space = k - vars;      
-                              while(space > 0 ){
-                                System.out.print(" "); 
-                                 space--;
-                                 
+                            
+                            while (columns <= (2* run - 1)) {
+                                System.out.print("-");  
+                                    // Code for the spaces to print out
+                                while(space > 0 ){
+                                    System.out.print(" "); 
+                                    space--;
                                 }
                              
+                                  // Code for the columns to print out    
                                 
-                              int columns = 1;
-                              while (columns <= (2 * run - 1) ){ // While loop for columns
-                                 
-                                 
-                                 System.out.print(run);                            
-                                 columns ++; 
-                                 
-                              }
+                                while (columns <= (2 * run - 1)) { // While loop for columns
+                              
+                                    System.out.print(run);                            
+                                    columns ++;
+                                  }
+                                
+                                
                        
-                        
-                             
-                             System.out.println(""); 
+                            System.out.println(""); 
                             
-                             
                             row ++;
                              
-                        }
-                    
-                        
+                            
+                            columns++; 
+                            } 
+                        }  
                     vars++;
-                    run ++;        
+                    run ++; 
+                    System.out.println("");
                    }
                  break;    
                 } // end of the while loop for between 1 to 9 

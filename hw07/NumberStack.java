@@ -96,25 +96,26 @@ public class NumberStack {
                         while (row <= run ){ // While loop for row
                             space = k - vars;      
                               
-                              // Code for the spaces to print out
+                                // Code for the spaces to print out
                                 while(space > 0 ){
                                     System.out.print(" "); 
                                     space--;
                                 }
                              
-                                  // Code for the columns to print out    
+                                // Code for the columns to print out    
                                 int columns = 1;
                                 while (columns <= (2 * run - 1) ){ // While loop for columns
                               
                                     System.out.print(run);                            
                                     columns ++;
-                                  }
+                                }
                        
                             System.out.println(""); 
                             
                             row ++;
                              
-                        }  
+                        } 
+                        System.out.println("");
                     vars++;
                     run ++;        
                    }
