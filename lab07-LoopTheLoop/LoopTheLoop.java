@@ -19,7 +19,6 @@ public class LoopTheLoop {
 
             while (inputStar <= nStar) {
                 System.out.print("*");
-j 
                 inputStar++;
             }
             System.out.println("");
@@ -47,10 +46,19 @@ j
                     int userInput = myScanner.nextInt();
 
                     if (userInput >= 1 && userInput <= 15) {
-                        // System.out.println("Hello"); 
                         int lineNumber2 = 1;
                         int nStar2 = userInput;
-
+                        
+                        // Print out the single line of # of stars
+                        int singleLine = 1; 
+                        while (singleLine <= nStar2){
+                            System.out.print("*");
+                            singleLine++; 
+                        }
+                       
+                       System.out.println(""); 
+                        
+                        // Print out the triangular sturcture of stars
                         while (lineNumber2 <= nStar2) {
                             int starColumn2 = 1;
                             while (starColumn2 <= lineNumber2) {
