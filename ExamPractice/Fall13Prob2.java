@@ -14,7 +14,7 @@
 // 3
 // 2
 // 1
-
+/*
 public class Fall13Prob2{
     public static void main (String [] args){
       
@@ -32,3 +32,31 @@ public class Fall13Prob2{
       }
     }
 } // End of public class
+*/
+
+
+public class Fall13Prob2{
+  public static void main (String [] args){
+    for (int i = 6; i > 3; i--){              // Blocks
+      for (int j = 0; j < (i - 2); j++){      // Rows
+        for (int k = 0; k < (i-j- 2) ; k++){         // Columns
+          System.out.print(i);
+        }
+        System.out.println("");
+      }
+    }
+    
+    for (int i = 3; i>0; i--){
+      System.out.println(i);
+    }
+    
+  } // End of main method
+  
+}// End of class
+
+
+
+
+
+
+

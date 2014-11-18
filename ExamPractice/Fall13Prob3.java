@@ -22,7 +22,7 @@ public class Fall13Prob3{
         }
         
     */
-    
+    /* The solution to this problem */
     
     public static int X(int i){
         int j = i - 10;
